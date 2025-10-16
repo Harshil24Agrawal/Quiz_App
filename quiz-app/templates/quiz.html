@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Quiz</h2>
+<form method="post" id="quiz-form">
+    <div id="timer">Time left: <span id="time">60</span> seconds</div>
+    {% for q in questions %}
+    <div class="question-block">
+        <p><b>Q{{ loop.index }}. {{ q[1] }}</b></p>
+        <div class="options">
+            <label><input type="radio" name="q{{ q[0] }}" value="1"> {{ q[2] }}</label><br>
+            <label><input type="radio" name="q{{ q[0] }}" value="2"> {{ q[3] }}</label><br>
+            <label><input type="radio" name="q{{ q[0] }}" value="3"> {{ q[4] }}</label><br>
+            <label><input type="radio" name="q{{ q[0] }}" value="4"> {{ q[5] }}</label>
+        </div>
+    </div>
+    {% endfor %}
+    <button type="submit" class="btn">Submit</button>
+</form>
+{% endblock %}

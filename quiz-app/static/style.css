@@ -1,0 +1,116 @@
+body {
+    background: #f7fafd;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #4f8cff;
+    color: #fff;
+    padding: 1rem 0;
+    box-shadow: 0 2px 8px #e0e7ef;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+nav a, nav span {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin: 0 0.5rem;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    max-width: 500px;
+    margin: 2.5rem auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px #e0e7ef;
+    padding: 2rem 2.5rem;
+}
+h1, h2 {
+    text-align: center;
+    color: #4f8cff;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.form label {
+    font-weight: 500;
+}
+.form input[type="text"], .form input[type="password"] {
+    padding: 0.6rem;
+    border: 1px solid #c7d0e1;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+.btn {
+    background: #4f8cff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background 0.2s;
+}
+.btn:hover {
+    background: #2563eb;
+}
+.error {
+    color: #e53e3e;
+    background: #fff0f0;
+    border: 1px solid #e53e3e;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+.question-block {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #f1f6ff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px #e0e7ef33;
+}
+.options label {
+    display: block;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+#timer {
+    text-align: right;
+    font-size: 1.1rem;
+    color: #e53e3e;
+    margin-bottom: 1rem;
+}
+.leaderboard {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+    background: #f1f6ff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px #e0e7ef33;
+}
+.leaderboard th, .leaderboard td {
+    padding: 0.8rem 1rem;
+    text-align: center;
+}
+.leaderboard th {
+    background: #4f8cff;
+    color: #fff;
+}
+.leaderboard tr:nth-child(even) {
+    background: #eaf1ff;
+}
