@@ -1,7 +1,5 @@
 # Quiz Web App
 
-#### Video Demo: <INSERT_YOUR_VIDEO_URL_HERE>
-
 #### Description:
 
 This project is a full-stack Quiz Web Application built using **Flask** for the backend, **SQLite** for database management, and **HTML, CSS, and JavaScript** for the frontend. The purpose of this project is to create an interactive and functional web application that allows users to register, log in, take quizzes, and view scores on a leaderboard. This project demonstrates understanding of web development fundamentals, database integration, session management, and dynamic content rendering.
