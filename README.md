@@ -1,1 +1,4 @@
 # Quiz_App
+This project is a full-stack Quiz Web Application built using Flask for the backend, SQLite for database management, and HTML, CSS, and JavaScript for the frontend. The purpose of this project is to create an interactive and functional web application that allows users to register, log in, take quizzes, and view scores on a leaderboard. This project demonstrates understanding of web development fundamentals, database integration, session management, and dynamic content rendering.
+
+The application is designed with three main types of users: guests, registered users, and the system administrator (for question insertion in the database). Guests can view the homepage but must register or log in to access the quiz functionality. Registered users can take quizzes, have their scores recorded, and view the leaderboard. This project includes functionality for multiple-choice quizzes, with scores automatically calculated and stored in the database.
